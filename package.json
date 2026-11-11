@@ -28,14 +28,14 @@
     "cordis"
   ],
   "license": "MIT",
-  "author": "chengsiyi",
+  "author": "Siyi Cheng",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chengsiyi/dsh-dsml-leak-guard.git"
+    "url": "git+https://github.com/GoGoZeppeli-towa/dsh-dsml-leak-guard.git"
   },
-  "homepage": "https://github.com/chengsiyi/dsh-dsml-leak-guard#readme",
+  "homepage": "https://github.com/GoGoZeppeli-towa/dsh-dsml-leak-guard#readme",
   "bugs": {
-    "url": "https://github.com/chengsiyi/dsh-dsml-leak-guard/issues"
+    "url": "https://github.com/GoGoZeppeli-towa/dsh-dsml-leak-guard/issues"
   },
   "publishConfig": {
     "access": "public"
