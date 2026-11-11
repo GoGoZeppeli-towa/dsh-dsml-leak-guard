@@ -44,8 +44,6 @@ dsh plugin --profile web add github:GoGoZeppeli-towa/dsh-dsml-leak-guard
 
 ### 从 npm 安装
 
-（包发布上架后可用）
-
 ```sh
 dsh plugin --profile web add dsh-dsml-leak-guard
 ```
