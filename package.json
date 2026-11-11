@@ -1,0 +1,52 @@
+{
+  "name": "dsh-dsml-leak-guard",
+  "version": "0.1.0",
+  "description": "DSH host plugin: drop DeepSeek DSML control-tag blocks that gateways leak as plain text, and turn the resulting silent empty turn into a retryable error.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsml",
+    "tool-call",
+    "gateway",
+    "cordis"
+  ],
+  "license": "MIT",
+  "author": "chengsiyi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengsiyi/dsh-dsml-leak-guard.git"
+  },
+  "homepage": "https://github.com/chengsiyi/dsh-dsml-leak-guard#readme",
+  "bugs": {
+    "url": "https://github.com/chengsiyi/dsh-dsml-leak-guard/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "check": "node --check lib/index.js",
+    "test": "node --test test/guard.test.mjs"
+  }
+}

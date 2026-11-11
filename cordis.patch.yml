@@ -1,0 +1,6 @@
+# Bundle layer: DSH applies this file automatically once the plugin is enabled.
+# Keep profile overrides as top-level `- id:` rows; never copy this insert block
+# into the profile patch by hand (duplicate ids break Settings).
+- insert:
+    - id: dsh-dsml-leak-guard
+      name: dsh-dsml-leak-guard
